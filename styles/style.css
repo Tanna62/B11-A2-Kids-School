@@ -47,19 +47,23 @@ font-weight: normal;
     font-weight: bold;
 }
 .font7{
+    /* 46px */
     font-size: 2.875rem;
     font-weight: bold;
 }
 .font8{
+    /* 24.52px */
     font-size: 1.5325rem;
     font-weight: bold;
 }
 .font9{
+    /* 15.09px */
     font-size: 0.943125rem;
     font-weight: medium;
 
 }
 .font10{
+    /* 15.09px */
     font-size: 0.943125rem;
     font-weight: bold;
 
@@ -168,7 +172,9 @@ font-weight: normal;
 .box-shadow{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
 }
-
+.text-shadow{
+    text-shadow: 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
 
 
 
@@ -221,4 +227,68 @@ height: 575px;
 .student-empower-description{
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+
+
+
+/* Standard curriculum section start from here */
+.Curriculum-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.different-schools{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 28.29px;
+}
+.kinder-scl{
+    background-color:rgba(222, 245, 255, 1) ;
+    background-image: linear-gradient(#DEF5FF,#FFFFFF);
+    border: none;
+    border-radius: 18.86px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+   
+
+}
+.elementary-scl{
+    background-color:#FFF4DC ;
+    background-image: linear-gradient(#FFF4DC,#FFFFFF);
+    border: none;
+    border-radius: 18.86px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    
+}
+.middle-scl{
+    background-color:#F2E8FF ;
+    background-image: linear-gradient(#F2E8FF,#FFFFFF);
+    border: none;
+    border-radius: 18.86px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    
+
+}
+
+/*inside of different school shared padding */
+.scl-padding{
+    padding:33.48px 40.67px  33.95px 40.88px;
+}
+.img-padding{
+    width:136.76px ;
+    height: 136.76px;
+    padding: 52.82px 115.5px 32.07px 115.54px;
+
+    
+}
+.bg-image{
+    background-image: url(../assets/bg.png);
+
+
+
 }
