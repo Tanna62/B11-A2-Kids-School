@@ -69,11 +69,13 @@ font-weight: normal;
 
 }
 .font11{
+       /* 15.34px */
     font-size: 0.95875rem;
     font-weight: bold;
 
 }
 .font12{
+    /* 15.34px */
     font-size: 0.95875rem;
     font-weight: medium;
 
@@ -164,6 +166,70 @@ font-weight: normal;
     padding: 10px 47px;
     
 }
+.button2:hover{
+    background-color:rgba(17, 17, 17, 0.74)  ;
+    cursor: pointer;
+}
+.button3{
+    color:#FFFFFF ;
+    background-color:rgba(60, 216, 232, 1) ;
+    border: none;
+    border-radius: 47.93px;
+    padding: 15px 20px;
+
+}
+.button3:hover{
+    background-color:rgba(60, 215, 232, 0.747) ;
+    cursor: pointer;
+}
+.button4{
+color: #FFFFFF;
+background-color:rgba(149, 178, 38, 1) ;
+border: none;
+border-radius:47.93px ;
+padding: 10px 18px;
+
+}
+.button4:hover{
+    background-color:rgba(150, 178, 38, 0.753) ;
+    cursor: pointer;
+}
+.button5{
+color: #FFFFFF;
+background-color:rgba(93, 88, 240, 1) ;
+border: none;
+border-radius:47.93px ;
+padding: 10px 18px;
+
+} 
+.button5:hover{
+    background-color:rgba(93, 88, 240, 0.719) ;
+    cursor: pointer;
+}
+ .button6{
+  color: #FFFFFF;
+  background-color:rgb(150, 178, 38) ;
+  border: none;
+  border-radius:47.93px ;
+  padding: 10px 18px;  
+ }
+ .button6:hover{
+    background-color:rgba(150, 178, 38, 0.733) ;
+    cursor: pointer;
+}
+.button7{
+
+ color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 1); ;
+  border: none;
+  border-radius:12px ;
+  padding: 10px 61px; 
+  
+}.button7:hover{
+   
+  background-color: rgba(0, 0, 0, 0.74); ;
+  cursor: pointer;
+}
 
 /* shared style */
 .display-flex{
@@ -244,6 +310,7 @@ height: 575px;
     max-width: 1160px;
     margin: 0 auto;
     gap: 28.29px;
+    margin-bottom: 80px;
 }
 .kinder-scl{
     background-color:rgba(222, 245, 255, 1) ;
@@ -288,7 +355,147 @@ height: 575px;
 }
 .bg-image{
     background-image: url(../assets/bg.png);
+}
+.arrow{
+    background-color:rgba(254, 163, 1, 1) ; 
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:17px 22.13 19px 22.13px;
+}
+.arrow:hover{
+    background-color:rgba(254, 161, 1, 0.479) ; 
+    transition: translateX(50px);
+    transform:scale( 1 ) rotate(45deg);
+    cursor: pointer;
+}
+.ball{
+    display:flex;
+   justify-content: center;
+   gap: 10px;
+   margin-top: 80px;
+   margin-bottom: 60px;
+}
+/* Our stories section starts from here */
+.stories-title{
+    text-align: center;
+}
+.card-design{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:19.17px;
+    margin-bottom: 80px;
+ 
+}
+.kid-stories{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.square-card{
+    border: none;
+    border-radius:16px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:19.17px
+}
+.card1{
+    border: none;
+    border-radius:16px ;
+    width: 540px;
+    height: 337px;
+    
+}
 
+.card1 img{
+    border: none;
+    border-radius: 16px;
 
+}
+.card2 img{
+    border: none;
+    border-radius: 16px;
 
+}
+.card3 img{
+    border: none;
+    border-radius: 16px;
+
+}
+.card4 img{
+    border: none;
+    border-radius: 16px;
+
+}
+.card5 img{
+    border: none;
+    border-radius: 16px;
+
+}
+.card-box1{
+    text-align: flex-start;
+    border: none;
+    border-radius:16px ;
+  width: 540.27px;
+  height: 630.52px;
+}
+.card2 {
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    width: 290.69;
+    height: 301.61;
+ 
+
+}
+.card3 {
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    width: 290.69;
+    height: 301.61;
+}
+.card4 {
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    width: 290.69;
+    height: 301.61;
+}
+.card5 {
+    text-align: center;
+    border: none;
+    border-radius: 16px;
+    width: 290.69;
+    height: 301.61;
+}
+.padding-left-for-box1{
+    padding-left: 38.35px;
+}
+.margin-left-for-box1{
+    margin-left: 38.35px;
+}
+.card-title{
+    
+    margin:33.55px 38.35px 47.93px 38.35px;
+}
+.card-description{
+    padding-bottom:34.52 ;
+}
+.squarebox-width-height{
+    width: 290.69px;
+    height: 301.61px;
+}
+.card-title{
+  text-align: center;
+  padding-bottom:28.5px ;
+}
+.btn-7{
+    display: flex;
+   justify-content: center;
+   margin-top: 80px;
+   margin-bottom: 60px;
 }
