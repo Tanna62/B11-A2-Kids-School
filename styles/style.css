@@ -178,6 +178,9 @@ font-weight: normal;
     border: none;
     border-radius: 47.93px;
     padding: 15px 20px;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
 
 }
 .button3:hover{
@@ -190,6 +193,9 @@ background-color:rgba(149, 178, 38, 1) ;
 border: none;
 border-radius:47.93px ;
 padding: 10px 18px;
+position: absolute;
+bottom: -10px;
+left: 20px;
 
 }
 .button4:hover{
@@ -202,6 +208,10 @@ background-color:rgba(93, 88, 240, 1) ;
 border: none;
 border-radius:47.93px ;
 padding: 10px 18px;
+padding: 10px 18px;
+position: absolute;
+bottom: -10px;
+left: 20px;
 
 } 
 .button5:hover{
@@ -214,6 +224,11 @@ padding: 10px 18px;
   border: none;
   border-radius:47.93px ;
   padding: 10px 18px;  
+  padding: 10px 18px;
+
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
  }
  .button6:hover{
     background-color:rgba(150, 178, 38, 0.733) ;
@@ -226,6 +241,8 @@ padding: 10px 18px;
   border: none;
   border-radius:12px ;
   padding: 10px 61px; 
+  padding: 10px 18px;
+
   
 }.button7:hover{
    
@@ -237,6 +254,12 @@ padding: 10px 18px;
 .display-flex{
     display: flex;
 }
+
+.put-button-inside-the-img{
+position: relative;
+}
+
+
 .box-shadow{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
 }
@@ -267,15 +290,16 @@ li >a{
     
     align-items: center;
   }
+
+
+.nav-items{
+ margin: 16px 186px;
+}
 .nav-logo{
     width: 62px;
     height: 62px;
     margin-right:11px ;
     margin-left: 21.5px;
-}
-
-.nav-items{
- margin: 16px 186px;
 }
 /* Empowering kids section  */
 
@@ -356,8 +380,12 @@ height: 575px;
     
 }
 .bg-image{
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
 }
+.bg-color-for-card{
+    background-color: #FFFFFF;
+}
+
 .arrow{
     background-color:rgba(254, 163, 1, 1) ; 
     width: 60px;
@@ -383,6 +411,13 @@ height: 575px;
    margin-bottom: 60px;
 }
 /* Our stories section starts from here */
+
+.different-schools{
+    background-color: transparent;
+    background-image: none;
+
+    
+}
 .stories-title{
     text-align: center;
 }
@@ -391,6 +426,8 @@ height: 575px;
     grid-template-columns:repeat(2,1fr);
     gap:19.17px;
     margin-bottom: 80px;
+    width: 1160px;
+    height: 630.52px;
  
 }
 .kid-stories{
@@ -402,11 +439,13 @@ height: 575px;
     border-radius:16px ;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap:19.17px
+    gap:19.17px;
+   
 }
 .card1{
     border: none;
-    border-radius:16px ;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     width: 540px;
     height: 337px;
     
@@ -414,27 +453,35 @@ height: 575px;
 
 .card1 img{
     border: none;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 
 }
 .card2 img{
     border: none;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
 
 }
 .card3 img{
     border: none;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+   
+   
 
 }
 .card4 img{
     border: none;
-    border-radius: 16px;
-
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
 }
 .card5 img{
     border: none;
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 
 }
 .card-box1{
@@ -594,3 +641,99 @@ margin-top: 123px;
 .icons{
     margin-right:10.15px ;
 }
+/* hamburger menu hide */
+.hamburger-menu{
+display: none;
+}
+
+/* Responsive for mobile device */
+@media screen and (max-width:576px) {
+
+    body {
+        overflow-x: hidden;
+      }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ .nav-items,.button1,.school,.mobile-device{
+   display: none;
+
+}
+.navbar{
+    border-bottom: 1px solid rgba(254, 163, 1, 1);
+}
+.hamburger-menu{
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    display: block;
+    margin-left: 288px;
+    width: 30px;
+    height: 30px;
+  
+}
+.nav-logo{
+    width: 46px;
+    height: 46px;
+    margin-bottom: 12px;
+}
+.empower-student-header-section{
+    /* width: 357px;
+    height: 725px; */
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    
+
+}
+
+.hero-kids img{
+    
+    width:335.58px;
+    height:413px;
+    margin: 8px 26px;
+    margin-left: 50px;
+    
+    }
+    .hero-kids{
+        margin: 0 auto;
+    }
+    .student-empower-title{
+        font-size:2rem ;
+        font-weight: bold;
+        margin-left: 50px;
+    }
+    .student-empower-description{
+        font-size: 0.875rem;
+        font-weight: medium;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        margin-right:16px ;
+        margin-left: 50px;
+    }
+    .button2{
+        margin-left:170px ;
+        width: 135px;
+        height: 48px;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 6px 24px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+
+
+
+
+    .empower-header{
+        margin:20px auto ;
+        align-items: center;
+        width: 357px 120px;
+  
+    }
+
+
+ }
