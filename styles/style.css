@@ -86,11 +86,13 @@ font-weight: normal;
 
 }
 .font14{
+    /* 42.14px */
     font-size:2.63375rem;
     font-weight: bold;
 
 }
 .font15{
+    /* 26px */
     font-size: 1.625rem;
     font-weight: bold;
 }
@@ -498,4 +500,97 @@ height: 575px;
    justify-content: center;
    margin-top: 80px;
    margin-bottom: 60px;
+}
+.bg-color-section2{
+
+}
+
+
+
+
+
+
+/* footer section starts from here */
+.footer-heading-section{
+    display: flex;
+    flex-direction: column;
+       align-items: baseline;
+       
+}
+.bg-color{
+    width:1439px ;
+    height: 519px;
+    margin: 0 auto;
+    background-color: rgba(1, 172, 253, 1);
+}
+.footer-description{
+    margin-left: 140px;
+}
+.list{
+    list-style: none;
+    margin-right:32px ;
+}
+li >a{
+    text-decoration: none;
+}
+.footer-nav{
+    list-style: none;
+    margin-right:32px ;
+    flex-direction: column;
+    align-items: baseline;
+    margin-bottom: 20px;
+    
+}
+li >a{
+   
+    text-decoration: none;
+}
+.footer-design{
+align-items: center;
+flex-direction: column;
+gap: 10.15px;
+
+}
+.about-scl{
+    text-align: center;
+    margin-top:122px;
+    margin-bottom:32px ;
+}
+
+.footer-description{
+    margin-top:0px;
+    margin-bottom: 179px;
+}
+.logo-img{
+    width: 82.9px;
+    height: 81.65px;
+    margin-left: 140px;
+    margin-right: 10.7px;
+    margin-top: 123px;
+    filter: grayscale(100%);
+    background-color: #FFFFFF;
+   /* fill: hue-rotate(45deg) saturate(2) brightness(1.2); */
+  
+    
+}
+.footer-title{
+margin-top: 123px;
+
+}
+
+
+
+.social-icon{
+    justify-content: center;
+    align-items: center;
+   
+}
+.social-icon-footer{
+    margin-top: 127px;
+    margin-bottom:294px ;
+    margin-left:142.91px ;
+    margin-right:228.09px ;
+}
+.icons{
+    margin-right:10.15px ;
 }
