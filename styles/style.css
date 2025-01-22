@@ -615,8 +615,7 @@ gap: 10.15px;
     margin-left: 140px;
     margin-right: 10.7px;
     margin-top: 123px;
-    filter: grayscale(100%);
-    background-color: #FFFFFF;
+    background-color: #ffffff;
    /* fill: hue-rotate(45deg) saturate(2) brightness(1.2); */
   
     
@@ -646,6 +645,24 @@ margin-top: 123px;
 .hamburger-menu{
 display: none;
 }
+
+/* marquee */
+
+
+.marq {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.marque{
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgba(1, 172, 253, 1);
+    padding-bottom: 10px;
+}
+
+
+
 
 /* Responsive for mobile device */
 @media screen and (max-width:576px) {
@@ -719,7 +736,7 @@ display: none;
         margin-left: 25px;
     }
     .button2{
-        margin-left:110px ;
+        margin-left:90px ;
         width: 135px;
         height: 48px;
         border-radius: 8px;
@@ -889,113 +906,7 @@ display: none;
     /* schools */
   
     /* footer */
-    .footer-heading-section{
-        display: flex;
-        flex-direction: column;
-           align-items: baseline;
-    }
-
-    .footer-nav{
-        list-style: none;
-       
-        flex-direction: row;
-       
-        margin-bottom: 20px;
-        
-    
-     }
-     .footer-heading-section{
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-           
-    }
-    .bg-color{
-        width:1439px ;
-        height: 519px;
-        margin: 0 auto;
-        background-color: rgba(1, 172, 253, 1);
-    }
-    .footer-description{
-        margin-left: 16px;
-    }
-    .list{
-        list-style: none;
-        margin-right:32px ;
-    }
-    li >a{
-        text-decoration: none;
-    }
-
-    li >a{
-       
-        text-decoration: none;
-    }
-    .footer-design{
-        align-items: start;
-        flex-direction: column;
-        gap: 10.15px;
-        
-        }
-    .about-scl{
-        padding: 0px;
-        margin-right:241px ;
-        margin-left: 0px;
-        margin-top:270px;
-        margin-bottom:10px ;
-    }
-    .div-scl{
-    margin-left: 0px;
-    }
-    
-    .logo-img{
-        width: 70px;
-        height: 70px;
-        margin-left: 16px;
-        margin-right: 10.7px;
-        margin-top: 70px;
-        filter: grayscale(0%);
-        background-color: #FFFFFF;
-       /* fill: hue-rotate(45deg) saturate(2) brightness(1.2); */
-      
-        
-    }
-    .footer-title{
-    font-size: 2.1875rem;
-    margin-top: 60px;
-    margin-bottom: 15px;
-    
-    }
-    .footer-description{
-        padding: 0px;
-        margin-top:0px;
-        /* margin-bottom: 179px; */
-        font-size:1rem ;
-    }
-    
-    
-    .social-icon{
-        justify-content: flex-start;
-        align-items: flex-start;
-       
-    }
-    .social-icon-footer{
-        margin-top: 127px;
-        margin-bottom:294px ;
-        margin-left:142.91px ;
-        margin-right:228.09px ;
-    }
-    .icons{
-        margin-right:10.15px ;
-    }
- .nav-itemss{
-    padding: 0px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-left: 0px;
- }
+   
 
  /* dk */
  .div-scl{
@@ -1144,8 +1055,113 @@ display: none;
     font-weight: medium;
     padding: 0px;
  }
+ .footer-section {
 
+    display: block; 
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(1, 172, 253, 1); 
+}
 
+.footer-heading-section {
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.logo-img {
+    
+    width: 69px;
+    height: 69px;
+    margin: 10px 0 10px 0; 
+    
+    background-color: #ffffff;
+}
+
+.footer-title {
+    font-size: 2.1875rem;
+    font-weight: bold;
+    margin: 0; 
+    text-align: left; 
+}
+
+.footer-paragraph {
+    margin: 5px 0 10px 0;
+    text-align: left; 
+    line-height: 1.5;
+}
+
+.footer-description {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 1.4;
+    text-align: left; 
+}
+
+.div-scl {
+    margin: 0; 
+    text-align: left;
+}
+
+.about-scl {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0; 
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.footer-design {
+    display: block; 
+    gap: 5px; 
+    text-align: left; 
+}
+
+.footer-nav {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.footer-nav a {
+    display: block; 
+    font-size: 12px;
+    margin: 5px 0;
+    text-align: left; 
+    text-decoration: none;
+}
+
+.social-icon-footer {
+    margin-left: 0px;
+    margin-top: 15px;
+    text-align: left; 
+}
+
+.social-icon-title {
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.social-icon {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+}
+/* marque */
+.marque{
+    font-size: 3rem;
+    font-weight: bold;
+    color:rgba(1, 172, 253, 1);
+    padding-bottom: 10px;
+}
 
 
 
