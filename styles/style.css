@@ -1070,8 +1070,8 @@ display: none;
  .footer-section {
 
     display: block; 
-    width: 100%;
-    height: auto;
+    width: 390px;
+    height:642px;
     padding: 15px;
     background-color: rgba(1, 172, 253, 1); 
 }
