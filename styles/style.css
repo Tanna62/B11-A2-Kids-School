@@ -381,6 +381,7 @@ height: 575px;
     
 }
 .bg-image{
+    width: 100%;
     background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
 }
 .bg-color-for-card{
@@ -625,7 +626,9 @@ gap: 10.15px;
 margin-top: 123px;
 
 }
-
+.footer-section{
+    width: 100%;
+}
 
 
 .social-icon{
@@ -924,7 +927,7 @@ display: none;
  .footer-section{
     padding:10px;
     box-sizing: border-box;
-   width: 374px;
+   width: 100%;
     margin: 0 auto;
     height:auto;
  }
@@ -1027,7 +1030,7 @@ display: none;
 }
 
 .bg-image{
-    width: 400px;
+    max-width: 400px;
     box-sizing: border-box;
     background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
 }
