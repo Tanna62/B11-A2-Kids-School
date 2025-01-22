@@ -1027,7 +1027,8 @@ display: none;
 }
 
 .bg-image{
-   
+    width: 400px;
+    box-sizing: border-box;
     background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
 }
 
