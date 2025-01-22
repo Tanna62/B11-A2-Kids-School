@@ -1024,7 +1024,7 @@ display: none;
     
 }
 .bg-image{
-    width: 100%;
+    width: 1140px;
     background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
 }
 .bg-color-for-card{
@@ -1071,7 +1071,7 @@ display: none;
  .footer-section {
 
     display: block; 
-    width: 390px;
+    width: 1140px;
     height:642px;
     padding: 15px;
     background-color: rgba(1, 172, 253, 1); 
