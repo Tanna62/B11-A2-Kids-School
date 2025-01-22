@@ -242,6 +242,7 @@ left: 20px;
   border-radius:12px ;
   padding: 10px 61px; 
   padding: 10px 18px;
+  margin-bottom: 30px;
 
   
 }.button7:hover{
@@ -652,13 +653,13 @@ display: none;
     body {
         overflow-x: hidden;
       }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+      /* * {
+        margin: 0;
+        padding: 0;
+       
+      } */
 
- .nav-items,.button1,.school,.mobile-device{
+ .nav-items,.button1,.school,.mobile-device,.ball,.card1,.card-box1{
    display: none;
 
 }
@@ -734,6 +735,402 @@ display: none;
         width: 357px 120px;
   
     }
+.card2{
+    width:173px ;
+    height: 179px;
+}
+.card3{
+    width:173px ;
+    height: 179px;
+}
+.card4{
+    width:173px ;
+    height: 179px;
+}
+.card5{
+
+    margin-top:0px auto;
+    width:173px ;
+    height: 179px;
+}
+
+.card2 img{
+    width: 173px;
+    height: 108px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+
+}
+.card3 img{
+    width: 173px;
+    height: 108px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+   
+   
+
+}
+.card4 img{
+    width: 173px;
+    height: 108px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+}
+.card5 img{
+    width: 173px;
+    height: 108px;
+    border: none;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.button4{
+    color: #FFFFFF;
+    background-color:rgba(149, 178, 38, 1) ;
+    border: none;
+    border-radius:28.54px ;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    font-size:0.5625rem;
+    font-weight: medium;
+    }
+    .button4:hover{
+        background-color:rgba(150, 178, 38, 0.753) ;
+        cursor: pointer;
+    }
+    .button5{
+        color: #FFFFFF;
+        background-color:rgb(93, 88, 240) ;
+        border: none;
+        border-radius:28.54px ;
+        padding: 5px 10px;
+        font-size:0.5625rem;
+        font-weight: medium;
+        position: absolute;
+        bottom: -10px;
+        left: 20px;
+    } 
+    .button5:hover{
+        background-color:rgba(93, 88, 240, 0.719) ;
+        cursor: pointer;
+    }
+     .button6{
+      color: #FFFFFF;
+      background-color:rgb(150, 178, 38) ;
+      border: none;
+      border-radius:28.54px ;
+      padding: 5px 10px;
+      font-size:0.5625rem;
+      font-weight: medium;
+      position: absolute;
+      bottom: -10px;
+      left: 20px;
+     }
+     .button6:hover{
+        background-color:rgba(150, 178, 38, 0.733) ;
+        cursor: pointer;
+    }
+    .button7{
+    
+     color: #FFFFFF;
+      background-color: rgba(0, 0, 0, 1); ;
+      border: none;
+      border-radius:12px ;
+      padding: 10px 61px; 
+      padding: 10px 18px;
+      margin-bottom: 30px;
+     
+
+      
+    }.button7:hover{
+       
+      background-color: rgba(0, 0, 0, 0.74); ;
+      cursor: pointer;
+    }
+    .btn-7{
+        margin: 0px auto;
+    }
+    .card-title{
+        font-size: 0.5625rem;
+    }
+.card-title{
+    margin-top: 15px;
+    margin-bottom:20px ;
+}
+.square-card{
+    border: none;
+    border-radius:16px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
 
 
+
+    /* schools */
+  
+    /* footer */
+    .footer-heading-section{
+        display: flex;
+        flex-direction: column;
+           align-items: baseline;
+    }
+
+    .footer-nav{
+        list-style: none;
+       
+        flex-direction: row;
+       
+        margin-bottom: 20px;
+        
+    
+     }
+     .footer-heading-section{
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+           
+    }
+    .bg-color{
+        width:1439px ;
+        height: 519px;
+        margin: 0 auto;
+        background-color: rgba(1, 172, 253, 1);
+    }
+    .footer-description{
+        margin-left: 16px;
+    }
+    .list{
+        list-style: none;
+        margin-right:32px ;
+    }
+    li >a{
+        text-decoration: none;
+    }
+
+    li >a{
+       
+        text-decoration: none;
+    }
+    .footer-design{
+        align-items: start;
+        flex-direction: column;
+        gap: 10.15px;
+        
+        }
+    .about-scl{
+        padding: 0px;
+        margin-right:241px ;
+        margin-left: 0px;
+        margin-top:270px;
+        margin-bottom:10px ;
+    }
+    .div-scl{
+    margin-left: 0px;
+    }
+    
+    .logo-img{
+        width: 70px;
+        height: 70px;
+        margin-left: 16px;
+        margin-right: 10.7px;
+        margin-top: 70px;
+        filter: grayscale(0%);
+        background-color: #FFFFFF;
+       /* fill: hue-rotate(45deg) saturate(2) brightness(1.2); */
+      
+        
+    }
+    .footer-title{
+    font-size: 2.1875rem;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    
+    }
+    .footer-description{
+        padding: 0px;
+        margin-top:0px;
+        /* margin-bottom: 179px; */
+        font-size:1rem ;
+    }
+    
+    
+    .social-icon{
+        justify-content: flex-start;
+        align-items: flex-start;
+       
+    }
+    .social-icon-footer{
+        margin-top: 127px;
+        margin-bottom:294px ;
+        margin-left:142.91px ;
+        margin-right:228.09px ;
+    }
+    .icons{
+        margin-right:10.15px ;
+    }
+ .nav-itemss{
+    padding: 0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 0px;
  }
+
+ /* dk */
+ .div-scl{
+
+    padding: 0px;
+ }
+
+/* width and height */
+ .footer-section{
+    padding: 0px;
+    width:390px ;
+    height: 640px;
+ }
+
+.card-design{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin: 0 auto;
+    width:400px ;
+    height: 570px;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-itemss ul{
+    padding: 0;
+}
+.nav-items li{
+    margin: 10px 0;
+}
+/* Standard curriculum section start from here */
+.Curriculum-title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin: 0 auto;
+}
+.different-schools{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 28.29px;
+    margin-bottom: 80px;
+}
+
+.kinder-scl{
+    background-color:rgba(222, 245, 255, 1) ;
+    background-image: linear-gradient(#DEF5FF,#FFFFFF);
+    border: none;
+    border-radius: 12.77px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+   text-align: center;
+   width: 370px;
+   height: 320px;
+   margin: 16px auto;
+   padding: 0px;
+
+} 
+.elementary-scl{
+    background-color:#FFF4DC ;
+    background-image: linear-gradient(#FFF4DC,#FFFFFF);
+    border: none;
+    border-radius: 12.77px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+   text-align: center;
+   width: 370px;
+   height: 320px;
+   margin: 16px auto;
+   padding: 0px;
+    
+}
+.middle-scl{
+    background-color:#F2E8FF ;
+    background-image: linear-gradient(#F2E8FF,#FFFFFF);
+    border: none;
+    border-radius: 12.77px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+   text-align: center;
+   width: 370px;
+   height: 320px;
+   margin: 16px auto;
+   padding: 0px;
+    
+
+}
+
+/*inside of different school shared padding */
+.scl-padding{
+    padding:33.48px 40.67px  33.95px 40.88px;
+}
+.img-padding{
+    width:136.76px ;
+    height: 136.76px;
+    padding: 52.82px 115.5px 32.07px 115.54px;
+
+    
+}
+.bg-image{
+    background-image: url(../assets/bg.png), linear-gradient(#FFFFFF,rgba(254, 161, 1, 0.3));
+}
+.bg-color-for-card{
+    background-color: #FFFFFF;
+}
+
+.img-kinder{
+   width: 85px;
+   height: 85px; 
+   margin:0px 0px ;
+   margin-top: 0px;
+}
+.elementary-scl-title{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.kinder-scl-title{
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.middle-scl-title{
+    margin-top: 0px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin:0px 0px ;
+}
+.elementary-scl-description{
+    font-size:0.825rem ;
+    font-weight: medium;
+    padding: 0px;
+}
+ .kinder-scl-description{
+    font-size:0.825rem ;
+    font-weight: medium;
+    padding: 0px;
+ }  
+ .middle-scl-description{
+    font-size:0.825rem ;
+    font-weight: medium;
+    padding: 0px;
+ }
+
+
+
+
+
+}
