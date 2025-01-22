@@ -922,11 +922,11 @@ display: none;
 
 /* width and height */
  .footer-section{
-    padding:15px;
+    padding:10px;
     box-sizing: border-box;
    width: 374px;
     margin: 0 auto;
-    height: 640px;
+    height:auto;
  }
  .bg-color{
     max-width: 1140px;
@@ -1148,6 +1148,8 @@ display: none;
     margin: 5px 0;
     text-align: left; 
     text-decoration: none;
+    width: 20px;
+    height: 20px;
 }
 
 .social-icon-footer {
@@ -1170,8 +1172,8 @@ display: none;
 }
 
 .social-icon img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 /* marque */
 .marque{
