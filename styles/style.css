@@ -566,9 +566,10 @@ height: 575px;
        
 }
 .bg-color{
-    width:1439px ;
-    height: 519px;
+    padding:0px;
+    max-width: 1140px;
     margin: 0 auto;
+    height: 640px;
     background-color: rgba(1, 172, 253, 1);
 }
 .footer-description{
@@ -920,9 +921,14 @@ display: none;
 
 /* width and height */
  .footer-section{
-    padding: 0px;
-    width:390px ;
+    padding:0px;
+    max-width: 1140px;
+    margin: 0 auto;
     height: 640px;
+ }
+ .bg-color{
+    max-width: 1140px;
+    margin: 0 auto;
  }
 
 .card-design{
@@ -932,7 +938,7 @@ display: none;
     margin-top: 40px;
     margin-bottom: 60px;
     margin: 0 auto;
-    width:400px ;
+    width:100% ;
     height: 570px;
     gap: 15px;
     margin-left: 20px;
